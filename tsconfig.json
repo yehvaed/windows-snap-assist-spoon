@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "esModuleInterop": true,
+    "lib": [
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "types": [
+      "lua-types/5.4"
+    ],
+    "strict": true,
+    "outDir": "./dist"
+    
+  },
+  "tstl": {
+    "noImplicitSelf": true,
+    "luaLibImport": "inline",
+    "luaTarget": "universal",
+  }
+}
